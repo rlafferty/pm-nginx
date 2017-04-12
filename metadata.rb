@@ -4,7 +4,7 @@ maintainer_email 'ross.lafferty@gmail.com'
 license 'all_rights'
 description 'Installs/Configures pm-nginx'
 long_description 'Installs/Configures pm-nginx'
-version '0.1.0'
+version '1.0.0'
 
 supports 'debian'
 
@@ -25,3 +25,4 @@ chef_version '>= 12.5' if respond_to?(:chef_version)
 # if respond_to?(:source_url)
 
 depends 'chef_nginx'
+# depends 'logrotate'

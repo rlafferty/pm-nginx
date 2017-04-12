@@ -24,3 +24,5 @@ suites:
       inspec_tests:
         - test/smoke/default
     attributes:
+      nginx:
+        default_root: /opt/site
