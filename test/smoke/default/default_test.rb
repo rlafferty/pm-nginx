@@ -6,8 +6,7 @@
 # found at http://inspec.io/docs/reference/resources/
 
 describe port(80) do
-  it { should be_listening }
-  its('processes') { should include 'nginx.conf' }
+  it { should_not be_listening }
 end
 
 describe service('nginx') do
