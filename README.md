@@ -2,10 +2,6 @@
 
 The pm-nginx Cookbook is a wrapper cookbook for the chef_nginx library cookbook that provides the ability to set default across all nginx deployments in the organization.  By wrapping the chef_nginx cookbook, the resources within that cookbook are inherently provided and additional tests can be crafted to ensure consistency and maintainability.
 
-## Scope
-
-This cookbook is concerned with the "MySQL Community Server", particularly those shipped with F/OSS Unix and Linux distributions. It does not address forks or value-added repackaged MySQL distributions like MariaDB or Percona.
-
 ## Requirements
 
 - Chef 12.5 or higher
